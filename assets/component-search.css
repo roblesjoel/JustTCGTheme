@@ -1,5 +1,9 @@
 .search__input.field__input {
   padding-right: 5rem;
+  grid-area: searchbar;
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 5px;
 }
 
 .search__button {
@@ -17,7 +21,7 @@
   z-index: 2;
 }
 
-.search__button:not(:focus-visible):not(.focused){
+.search__button:not(:focus-visible):not(.focused) {
   box-shadow: inherit;
   background-color: inherit;
 }

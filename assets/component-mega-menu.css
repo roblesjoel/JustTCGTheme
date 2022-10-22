@@ -6,7 +6,7 @@
   background-color: rgb(var(--color-background));
   border-left: 0;
   border-radius: 0;
-  border-right: 0;  
+  border-right: 0;
   left: 0;
   overflow-y: auto;
   padding-bottom: 2.4rem;
@@ -33,6 +33,7 @@
 .mega-menu[open] .mega-menu__content {
   opacity: 1;
   transform: translateY(0);
+  background-color: var(--color-background);
 }
 
 .mega-menu__list {
@@ -76,7 +77,7 @@
 
 .mega-menu__link:hover,
 .mega-menu__link--active {
-  color: rgb(var(--color-foreground));
+  color: rgb(var(--color-background));
   text-decoration: underline;
 }
 
