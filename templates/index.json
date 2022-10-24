@@ -35,12 +35,14 @@
         "button"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image": "shopify:\/\/shop_images\/BRO_1080p_en.jpg",
+        "image_2": "shopify:\/\/shop_images\/DMR_1080p_en.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
@@ -49,6 +51,7 @@
     },
     "rich_text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -69,6 +72,8 @@
         "text"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -80,15 +85,22 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
@@ -128,6 +140,7 @@
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
