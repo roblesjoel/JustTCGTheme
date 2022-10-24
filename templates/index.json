@@ -8,9 +8,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/BRO_1080p_en.jpg",
             "heading": "The Brothers War",
-            "heading_size": "h0",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Jetzt Vorbestellen",
             "link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
             "box_align": "middle-left",
