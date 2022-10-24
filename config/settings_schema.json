@@ -16,6 +16,13 @@
       },
       {
         "type": "color",
+        "id": "colors_header_dropdown",
+        "default": "#348ABE",
+        "label": "Custom color 1",
+        "info": "This color can be used globally"
+      },
+      {
+        "type": "color",
         "id": "colors_solid_button_labels",
         "default": "#FFFFFF",
         "label": "t:settings_schema.colors.settings.colors_solid_button_labels.label",

@@ -1,9 +1,10 @@
 .mega-menu {
   position: static;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .mega-menu__content {
-  background-color: rgb(var(--color-background));
+  background-color: var(--color-header-dropdown);
   border-left: 0;
   border-radius: 0;
   border-right: 0;
@@ -15,6 +16,7 @@
   right: 0;
   top: 100%;
   z-index: -1;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .shopify-section-header-sticky .mega-menu__content {
@@ -26,20 +28,19 @@
 }
 
 .js .mega-menu__content {
+  transition: opacity 0.5s ease-in-out;
   opacity: 0;
-  transform: translateY(-1.5rem);
 }
 
 .mega-menu[open] .mega-menu__content {
+  transition: opacity 0.5s ease-in-out;
   opacity: 1;
-  transform: translateY(0);
-  background-color: var(--color-background);
 }
 
 .mega-menu__list {
   display: grid;
   gap: 2.4rem 4rem;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   list-style: none;
 }
 
@@ -56,10 +57,11 @@
 }
 
 .mega-menu__link--level-2 {
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 .mega-menu__link--level-2:not(:only-child) {
+  color: rgb(var(--color-background));
   margin-bottom: 0.8rem;
 }
 
@@ -78,7 +80,7 @@
 .mega-menu__link:hover,
 .mega-menu__link--active {
   color: rgb(var(--color-background));
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .mega-menu__link--active:hover {
