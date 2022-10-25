@@ -41,14 +41,18 @@
     {{ content_for_header }}
 
     {%- liquid
-             assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
-             assign body_font_italic = settings.type_body_font | font_modify: 'style', 'italic'
-             assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
-           %}
+                      assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
+                      assign body_font_italic = settings.type_body_font | font_modify: 'style', 'italic'
+                      assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
+                    %}
 
     {% style %}
     :root {
-      --color-header-dropdown: {{ settings.colors_header_dropdown }}};
+      --color-header-dropdown: {{ settings.colors_header_dropdown }};
+      --color-text-light: {{ settings.colors_text_light }};
+      --color-text-dark: {{ settings.colors_text_dark }};
+    };
+
     {{ settings.type_body_font | font_face: font_display: 'swap' }}
     {{ body_font_bold | font_face: font_display: 'swap' }}
     {{ body_font_italic | font_face: font_display: 'swap' }}

@@ -18,8 +18,22 @@
         "type": "color",
         "id": "colors_header_dropdown",
         "default": "#348ABE",
-        "label": "Custom color 1",
+        "label": "Header menu dropdown",
         "info": "This color can be used globally"
+      },
+      {
+        "type": "color",
+        "id": "colors_text_light",
+        "default": "#FFFFFF",
+        "label": "Light text Color",
+        "info": "This color can be"
+      },
+      {
+        "type": "color",
+        "id": "colors_text_dark",
+        "default": "#000000",
+        "label": "Dark text Color",
+        "info": "This color can be used"
       },
       {
         "type": "color",

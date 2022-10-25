@@ -1,6 +1,5 @@
 .mega-menu {
   position: static;
-  transition: opacity 0.5s ease-in-out;
 }
 
 .mega-menu__content {
@@ -16,7 +15,6 @@
   right: 0;
   top: 100%;
   z-index: -1;
-  transition: opacity 0.5s ease-in-out;
 }
 
 .shopify-section-header-sticky .mega-menu__content {
@@ -28,8 +26,7 @@
 }
 
 .js .mega-menu__content {
-  transition: opacity 0.5s ease-in-out;
-  opacity: 0;
+  opacity: 1;
 }
 
 .mega-menu[open] .mega-menu__content {
