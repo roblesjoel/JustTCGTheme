@@ -102,7 +102,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "draft-display",
+        "collection": "march-of-the-machine-sealed",
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
