@@ -108,7 +108,7 @@
     "social_twitter_link": "",
     "social_facebook_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/derjulienboss\/",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -215,15 +215,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "548869057455184019": {
-        "type": "shopify:\/\/apps\/preorder-bear\/blocks\/widget\/c9ef47a7-e0f7-4d5b-a2e4-8c07318f330b",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Default": {
