@@ -75,8 +75,46 @@
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": true,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "707188ae-5c7d-4cc1-8cab-28f037e5a856": {
+      "type": "collage",
+      "blocks": {
+        "65d6a5b0-1c68-4f65-a3e8-10dfbb9be8c8": {
+          "type": "collection",
+          "settings": {
+            "collection": "magic-the-gathering"
+          }
+        },
+        "8370e19d-71b9-484e-bb6c-58489a790d52": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "558bfd3a-2bf5-43f4-80a4-76ce3b0fc125": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "65d6a5b0-1c68-4f65-a3e8-10dfbb9be8c8",
+        "8370e19d-71b9-484e-bb6c-58489a790d52",
+        "558bfd3a-2bf5-43f4-80a4-76ce3b0fc125"
+      ],
+      "settings": {
+        "heading": "Games",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -84,6 +122,7 @@
   },
   "order": [
     "27d8c50b-0925-4585-99fe-9854323759fe",
-    "52f1114c-7b62-48a7-9ff7-7ab9b780c4fe"
+    "52f1114c-7b62-48a7-9ff7-7ab9b780c4fe",
+    "707188ae-5c7d-4cc1-8cab-28f037e5a856"
   ]
 }
