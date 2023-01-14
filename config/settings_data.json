@@ -164,7 +164,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
-              "menu": "footer"
+              "menu": "about-us"
             }
           },
           "footer-1": {
