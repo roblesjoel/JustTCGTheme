@@ -160,32 +160,56 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
-          "footer-2": {
-            "type": "text",
-            "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-            }
-          },
           "footer-0": {
             "type": "link_list",
             "settings": {
               "heading": "About Us",
               "menu": "about-us"
             }
+          },
+          "1eeece5e-5718-4e93-8b3f-8f4e64376487": {
+            "type": "link_list",
+            "settings": {
+              "heading": "MTG Singles",
+              "menu": "footer"
+            }
+          },
+          "81b9e074-7904-4df3-8ae1-3b866a60350e": {
+            "type": "link_list",
+            "settings": {
+              "heading": "MTG Sealed",
+              "menu": "footer"
+            }
+          },
+          "bba32a26-0a74-45bf-acb2-087f7728b4b4": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Pokemon",
+              "menu": "footer"
+            }
+          },
+          "1810ddde-6a76-45b0-adb1-444d7f3dd0cb": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Yu-Gi-Oh!",
+              "menu": "footer"
+            }
+          },
+          "778eb5ca-daee-4517-9ea1-fe2f0e864d53": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Zubehör",
+              "menu": "footer"
+            }
           }
         },
         "block_order": [
-          "footer-1",
-          "footer-2",
-          "footer-0"
+          "footer-0",
+          "1eeece5e-5718-4e93-8b3f-8f4e64376487",
+          "81b9e074-7904-4df3-8ae1-3b866a60350e",
+          "bba32a26-0a74-45bf-acb2-087f7728b4b4",
+          "1810ddde-6a76-45b0-adb1-444d7f3dd0cb",
+          "778eb5ca-daee-4517-9ea1-fe2f0e864d53"
         ],
         "settings": {
           "color_scheme": "accent-1",
