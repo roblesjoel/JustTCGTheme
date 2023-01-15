@@ -312,7 +312,7 @@
 }
 
 .card-information {
-  width: 100%;
+  width: max-width;
   position: absolute; 
   bottom: 0; 
 }
