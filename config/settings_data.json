@@ -220,8 +220,8 @@
           "enable_language_selector": true,
           "payment_enable": true,
           "margin_top": 0,
-          "padding_top": 36,
-          "padding_bottom": 36
+          "padding_top": 32,
+          "padding_bottom": 32
         }
       },
       "main-password-header": {
