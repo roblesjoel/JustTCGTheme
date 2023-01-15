@@ -2425,6 +2425,7 @@ input[type="checkbox"] {
   width: 2rem;
   fill: none;
   vertical-align: middle;
+  color: var(color-text-light)
 }
 
 .header__icon,
