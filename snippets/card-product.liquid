@@ -297,7 +297,7 @@
             {%- endif -%}
           </div>
           <div class="card__stock">
-            {{ card_product.selected_or_first_available_variant.inventory_quantity | escape }})
+            {{ card_product.selected_or_first_available_variant.inventory_quantity | escape }} Available
           </div>
         {%- endif -%}
         <div class="card__badge {{ settings.badge_position }}">
