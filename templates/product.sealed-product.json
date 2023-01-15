@@ -54,6 +54,11 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "e1685838-d519-445a-93d4-4c5e232699d5": {
+          "type": "shopify:\/\/apps\/quantity-breaks-discounts\/blocks\/table-discount-block\/a8198207-c94c-43c6-8e51-f4d802fff7f3",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -65,7 +70,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "e1685838-d519-445a-93d4-4c5e232699d5"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -77,6 +83,22 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "167379836601575e53": {
+      "type": "apps",
+      "blocks": {
+        "98b3caa3-b3f6-4cf8-9400-b84de0325035": {
+          "type": "shopify:\/\/apps\/quantity-breaks-discounts\/blocks\/table-discount-block\/a8198207-c94c-43c6-8e51-f4d802fff7f3",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "98b3caa3-b3f6-4cf8-9400-b84de0325035"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "multicolumn": {
@@ -138,28 +160,12 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "1673798144ed2ed1e0": {
-      "type": "apps",
-      "blocks": {
-        "bca1e075-d88b-4b10-91ea-7d44f5ac5587": {
-          "type": "shopify:\/\/apps\/quantity-breaks-discounts\/blocks\/table-discount-block\/a8198207-c94c-43c6-8e51-f4d802fff7f3",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "bca1e075-d88b-4b10-91ea-7d44f5ac5587"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
+    "167379836601575e53",
     "multicolumn",
-    "product-recommendations",
-    "1673798144ed2ed1e0"
+    "product-recommendations"
   ]
 }
