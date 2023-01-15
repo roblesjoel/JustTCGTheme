@@ -126,7 +126,7 @@
   grid-row-start: 2;
   padding: 1.3rem 1rem;
   position: relative;
-  height: calc(auto + 2rem);
+  height: calc(100% + 10px);
   min-height: 100px;
 }
 
