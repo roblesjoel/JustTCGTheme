@@ -2672,6 +2672,7 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item span {
+  color: var(--color-text-light);
   transition: text-decoration var(--duration-short) ease;
 }
 
