@@ -317,7 +317,7 @@
 .card-information {
   position: absolute; 
   bottom: 0; 
-  margin-inline: auto;
+  left: 50%
 }
 
 .card-information > * {
