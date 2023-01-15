@@ -127,6 +127,11 @@
   padding: 1.3rem 1rem;
 }
 
+.card__stock {
+  grid-row-start: 6;
+  padding: 1.3rem 1rem;
+}
+
 .card:not(.ratio) > .card__content {
   grid-template-rows: max-content minmax(0,1fr) max-content auto;
 }
