@@ -120,6 +120,9 @@
     "predictive_search_show_price": false,
     "favicon": "{{ shop.brand.square_logo }}",
     "currency_code_enabled": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_justtcg_onlyfont_b8fc3c1b-4b7c-46f4-b61d-a89254a1d38f.png",
+    "checkout_logo_position": "right",
+    "checkout_logo_size": "large",
     "header_dropdown_color": "background-3",
     "sections": {
       "announcement-bar": {

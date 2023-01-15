@@ -55,9 +55,10 @@
             "share_label": "Share"
           }
         },
-        "e1685838-d519-445a-93d4-4c5e232699d5": {
-          "type": "shopify:\/\/apps\/quantity-breaks-discounts\/blocks\/table-discount-block\/a8198207-c94c-43c6-8e51-f4d802fff7f3",
+        "db47afcb-e1b2-4700-976f-71457f803a6b": {
+          "type": "custom_liquid",
           "settings": {
+            "custom_liquid": ""
           }
         }
       },
@@ -71,7 +72,7 @@
         "buy_buttons",
         "description",
         "share",
-        "e1685838-d519-445a-93d4-4c5e232699d5"
+        "db47afcb-e1b2-4700-976f-71457f803a6b"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -85,61 +86,93 @@
         "padding_bottom": 12
       }
     },
-    "167379836601575e53": {
-      "type": "apps",
+    "7a7ab2d3-0476-43b6-b6cf-f262b9fa099d": {
+      "type": "rich-text",
       "blocks": {
-        "98b3caa3-b3f6-4cf8-9400-b84de0325035": {
-          "type": "shopify:\/\/apps\/quantity-breaks-discounts\/blocks\/table-discount-block\/a8198207-c94c-43c6-8e51-f4d802fff7f3",
+        "template--17580957991230__7a7ab2d3-0476-43b6-b6cf-f262b9fa099d-1673798426fb736af6-0": {
+          "type": "heading",
           "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "98b3caa3-b3f6-4cf8-9400-b84de0325035"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
           }
         },
-        "column-1": {
-          "type": "column",
+        "template--17580957991230__7a7ab2d3-0476-43b6-b6cf-f262b9fa099d-1673798426fb736af6-1": {
+          "type": "text",
           "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
       "block_order": [
-        "column-0",
-        "column-1"
+        "template--17580957991230__7a7ab2d3-0476-43b6-b6cf-f262b9fa099d-1673798426fb736af6-0",
+        "template--17580957991230__7a7ab2d3-0476-43b6-b6cf-f262b9fa099d-1673798426fb736af6-1"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "86665075-6a9a-4054-89f4-091444cc1506": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-0",
+        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-1",
+        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-2",
+        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -164,8 +197,8 @@
   },
   "order": [
     "main",
-    "167379836601575e53",
-    "multicolumn",
+    "7a7ab2d3-0476-43b6-b6cf-f262b9fa099d",
+    "86665075-6a9a-4054-89f4-091444cc1506",
     "product-recommendations"
   ]
 }
