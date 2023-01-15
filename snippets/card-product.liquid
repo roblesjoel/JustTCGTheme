@@ -112,7 +112,7 @@
                 aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
               >
                 {{ card_product.title | escape }}
-                <script>console.log({{ card_product.selected_or_first_available_variant.inventory_quantity | json }});</script>
+                
               </a>
             </h3>
           </div>
@@ -295,6 +295,9 @@
                 </div>
               </quick-add-modal>
             {%- endif -%}
+          </div>
+          <div>
+            {{ card_product.selected_or_first_available_variant.inventory_quantity | escape }})
           </div>
         {%- endif -%}
         <div class="card__badge {{ settings.badge_position }}">
