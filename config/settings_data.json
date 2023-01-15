@@ -160,13 +160,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "link_list",
-            "settings": {
-              "heading": "About Us",
-              "menu": "about-us"
-            }
-          },
           "1eeece5e-5718-4e93-8b3f-8f4e64376487": {
             "type": "link_list",
             "settings": {
@@ -201,15 +194,22 @@
               "heading": "Zubehör",
               "menu": "footer"
             }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "About Us",
+              "menu": "about-us"
+            }
           }
         },
         "block_order": [
-          "footer-0",
           "1eeece5e-5718-4e93-8b3f-8f4e64376487",
           "81b9e074-7904-4df3-8ae1-3b866a60350e",
           "bba32a26-0a74-45bf-acb2-087f7728b4b4",
           "1810ddde-6a76-45b0-adb1-444d7f3dd0cb",
-          "778eb5ca-daee-4517-9ea1-fe2f0e864d53"
+          "778eb5ca-daee-4517-9ea1-fe2f0e864d53",
+          "footer-0"
         ],
         "settings": {
           "color_scheme": "accent-1",
