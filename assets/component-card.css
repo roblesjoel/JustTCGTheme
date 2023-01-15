@@ -126,8 +126,8 @@
   grid-row-start: 2;
   padding: 1.3rem 1rem;
   position: relative;
-  height: calc(100% + 10px);
-  min-height: 100px;
+  height: auto;
+  min-height: 150px;
 }
 
 .card__stock {
