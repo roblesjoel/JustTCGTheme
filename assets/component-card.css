@@ -233,14 +233,16 @@
   outline: 0;
 }
 
-  .card:hover {
-        background-color: transparent;
-  }
+
 
 @media screen and (min-width: 990px) {
   .card .media.media--hover-effect > img:only-child,
   .card-wrapper .media.media--hover-effect > img:only-child {
     transition: transform var(--duration-long) ease;
+  }
+
+    .card:hover {
+        background-color: transparent;
   }
 
   .card:hover .media.media--hover-effect > img:first-child:only-child,
