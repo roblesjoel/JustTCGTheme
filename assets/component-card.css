@@ -263,7 +263,7 @@
   }
 
   .underline-links-hover a{
-    ransition: color var(--duration-long) ease;
+    transition: color var(--duration-long) ease;
   }
 
   .underline-links-hover:hover a {
