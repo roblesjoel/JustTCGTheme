@@ -242,7 +242,7 @@
   }
 
     .card:hover {
-        background-color: transparent;
+        background: none;
   }
 
   .card:hover .media.media--hover-effect > img:first-child:only-child,
