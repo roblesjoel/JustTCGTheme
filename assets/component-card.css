@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-image: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(255,255,255,0.4962185557816877) 12%, rgba(255,255,255,0) 26%, rgba(255,255,255,0.5) 40%, rgba(255,255,255,1) 42%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(255,255,255,0.4962185557816877) 12%, rgba(255,255,255,0) 26%, rgba(255,255,255,0.5) 40%, rgba(255,255,255,1) 42%);
 }
 
 .card.card--horizontal {
@@ -238,11 +238,11 @@
 @media screen and (min-width: 990px) {
   .card .media.media--hover-effect > img:only-child,
   .card-wrapper .media.media--hover-effect > img:only-child {
-    transition: background-image 0.5s linear, transform var(--duration-long) ease;
+    transition: background 0.5s linear, transform var(--duration-long) ease;
   }
 
     .card:hover {
-        background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%);
+        background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%);
   }
 
   .card:hover .media.media--hover-effect > img:first-child:only-child,
