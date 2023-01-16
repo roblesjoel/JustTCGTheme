@@ -239,8 +239,8 @@
     transition: transform var(--duration-long) ease;
   }
 
-  .card:not(.ratio):hover {
-      background-color: black;
+  .card:hover {
+        background-color: transparent;
   }
 
   .card:hover .media.media--hover-effect > img:first-child:only-child,
