@@ -239,6 +239,10 @@
     transition: transform var(--duration-long) ease;
   }
 
+  .card:hover{
+      background-color: black;
+  }
+
   .card:hover .media.media--hover-effect > img:first-child:only-child,
   .card-wrapper:hover .media.media--hover-effect > img:first-child:only-child {
     transform: scale(1.03);
