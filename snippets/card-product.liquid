@@ -31,7 +31,7 @@
       assign ratio = 1
     endif
   -%}
-  <div class="card-wrapper product-card-wrapper underline-links-hover">
+  <div class="card-wrapper product-card-wrapper underline-links-hover" style=" background-image: url({{ card_product.featured_media | image_url }}); background-position: center; background-repeat: no-repeat; background-size: 900%;">
     <div
       class="
         card
@@ -42,7 +42,7 @@
         {% if card_product.featured_media == nil and settings.card_style == 'card' %} ratio{% endif %}
         {% if horizontal_class %} card--horizontal{% endif %}
       "
-      style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%; background-image: url({{ card_product.featured_media | image_url }}); background-position: center; background-repeat: no-repeat; background-size: 900%;"
+      style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
       <div
         class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
