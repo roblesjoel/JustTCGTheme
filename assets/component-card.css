@@ -242,7 +242,7 @@
   }
 
     .card:hover {
-        background: none;
+        background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 100%);
   }
 
   .card:hover .media.media--hover-effect > img:first-child:only-child,
