@@ -238,7 +238,7 @@
 @media screen and (min-width: 990px) {
   .card .media.media--hover-effect > img:only-child,
   .card-wrapper .media.media--hover-effect > img:only-child {
-    transition: background 0.5s linear, transform var(--duration-long) ease;
+    transition: color var(--duration-long) ease, transform var(--duration-long) ease;
   }
 
   .card:hover {
@@ -265,6 +265,7 @@
   .underline-links-hover:hover a {
     text-decoration: underline;
     text-underline-offset: 0.3rem;
+    color: white;
   }
 }
 
