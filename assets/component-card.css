@@ -263,7 +263,8 @@
   }
 
   .underline-links-hover:hover a {
-      color: white;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
   }
 }
 
