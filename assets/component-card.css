@@ -239,7 +239,7 @@
     transition: transform var(--duration-long) ease;
   }
 
-  .card:hover{
+  .card:hover > .card:not(.ratio){
       background-color: black;
   }
 
