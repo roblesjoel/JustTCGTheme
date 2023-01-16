@@ -42,7 +42,7 @@
         {% if card_product.featured_media == nil and settings.card_style == 'card' %} ratio{% endif %}
         {% if horizontal_class %} card--horizontal{% endif %}
       "
-      style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
+      style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%; background-image: url({{ card_product.images[0] }})"
     >
       <div
         class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
@@ -201,7 +201,7 @@
         </div>
         {%- if show_quick_add -%}
           <div class="quick-add no-js-hidden">
-            <script>console.log({{ card_product.selected_or_first_available_variant | json }});</script>
+            <script>console.log({{ card_product | json }});</script>
             {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}
             {%- if card_product.variants.size == 1 -%}
               <product-form>
