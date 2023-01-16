@@ -15,23 +15,7 @@
   flex-direction: column;
   height: 100%;
   background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(255,255,255,0.4962185557816877) 12%, rgba(255,255,255,0) 26%, rgba(255,255,255,0.5) 40%, rgba(255,255,255,1) 42%);
-  position: relative;
-  z-index: 1;
 }
-
-.card:not(.ratio)::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(255,255,255,0.4962185557816877) 12%, rgba(255,255,255,0) 26%, rgba(255,255,255,0.5) 40%, rgba(255,255,255,1) 42%);
-  z-index: -1;
-  transition: opacity 0.5s linear;
-  opacity: 0;
-}
-
 
 .card.card--horizontal {
   --text-alignment: left;
@@ -257,9 +241,8 @@
     transition: background 0.5s linear, transform var(--duration-long) ease;
   }
 
-  .card:hover::before {
+  .card:hover {
       background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%);
-      opacity: 1;
   }
 
   .card:hover .media.media--hover-effect > img:first-child:only-child,
