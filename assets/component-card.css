@@ -74,7 +74,8 @@
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
   background-color: white;
-  max-height: 40%
+  max-height: 65%
+  transition: max-height 0.5s ease-out;
 }
 
 .card .card__inner .card__media {
