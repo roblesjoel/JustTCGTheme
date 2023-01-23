@@ -6,6 +6,9 @@
   box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
   background: rgba(0,0,0,0.65);
   background-blend-mode: darken;
+  background-size: 900%;
+  background-position: center;
+  border-radius: var(--product-card-corner-radius);
 }
 
 .card {
