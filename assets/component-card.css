@@ -25,7 +25,6 @@
   color: white;
   background-color: white;
   position: absolute;
-  z-index: -1;
 }
 
 .card.card--horizontal {
