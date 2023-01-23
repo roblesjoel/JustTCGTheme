@@ -75,7 +75,6 @@
   bottom: 0px;
   border-bottom-left-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius);
-  box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
   background-color: white;
   max-height: 65%;
   transition: max-height 0.2s ease-out;
