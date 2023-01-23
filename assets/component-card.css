@@ -257,7 +257,7 @@
   }
 
   .card:hover:before {
-    max-height: 0vw
+    max-height: 0vw;
     transition: max-height 0.5s ease-in;
   }
 
