@@ -26,7 +26,8 @@
   height: 100%;
   background-color: white;
   position: absolute;
-  border-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
   max-height: 25%;
   transition: max-height 0.2s ease-out;
 }
@@ -72,7 +73,8 @@
   height: 100%;
   top: auto;
   bottom: 0px;
-  border-radius: var(--border-radius);
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
   box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
   background-color: white;
   max-height: 65%;
