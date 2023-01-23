@@ -21,7 +21,8 @@
   display: block;
   height: 100vh;
   background-color: white;
-  position: relative;
+  position: absolute;
+  z-index: -1;
 }
 
 .card.card--horizontal {
