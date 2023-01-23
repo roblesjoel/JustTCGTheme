@@ -266,6 +266,12 @@
     transition: max-height 0.5s ease-in;
   }
 
+  .card:hover:before > .card--card:after{
+    max-height: 0%;
+    transition: max-height 0.5s ease-in;
+  }
+  
+
   .card:hover .media.media--hover-effect > img:first-child:only-child,
   .card-wrapper:hover .media.media--hover-effect > img:first-child:only-child {
     transform: scale(1.03);
