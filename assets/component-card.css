@@ -25,6 +25,7 @@
   background-color: white;
   position: absolute;
   border-radius: var(--border-radius);
+  max-height: 100%;
   transition: max-height 0.5s ease-out;
 }
 
@@ -257,7 +258,7 @@
   }
 
   .card:hover:before {
-    max-height: 0vw;
+    max-height: 0%;
     transition: max-height 0.5s ease-in;
   }
 
