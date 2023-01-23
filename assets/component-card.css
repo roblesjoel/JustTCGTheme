@@ -25,6 +25,7 @@
   background-color: white;
   position: absolute;
   border-radius: var(--border-radius);
+  transition: max-height 0.5s ease-out;
 }
 
 .card.card--horizontal {
@@ -256,7 +257,8 @@
   }
 
   .card:hover:before {
-    height: 0vw;
+    max-height: 0vw
+    transition: max-height 0.5s ease-in;
   }
 
   .card:hover .media.media--hover-effect > img:first-child:only-child,
