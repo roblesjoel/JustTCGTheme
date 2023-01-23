@@ -17,7 +17,7 @@
   background-color: transparent;
 }
 
-.card::before{
+.card:before{
   content: "";
   display: block;
   width: 100%;
