@@ -28,6 +28,7 @@
   position: absolute;
   border-radius: var(--border-radius);
   max-height: 25%;
+  transition: max-height 0.2s ease-out;
 }
 
 .card.card--horizontal {
@@ -75,6 +76,7 @@
   box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
   background-color: white;
   max-height: 65%;
+  transition: max-height 0.2s ease-out;
 }
 
 .card .card__inner .card__media {
