@@ -20,7 +20,8 @@
 .card:not(.ratio)::before{
   content: "";
   display: block;
-  height: 70vh;
+  width: 150px;
+  height: 150px;
   background-color: white;
   position: absolute;
   z-index: -1;
