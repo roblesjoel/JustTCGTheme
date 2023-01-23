@@ -29,18 +29,6 @@
   transition: max-height 0.5s ease-out;
 }
 
-.card::after{
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  position: absolute;
-  border-radius: var(--border-radius);
-  max-height: 25%;
-  transition: max-height 0.5s ease-out;
-}
-
 .card.card--horizontal {
   --text-alignment: left;
   --image-padding: 0rem;
@@ -77,13 +65,16 @@
 .card--standard .card__inner:after {
   content: '';
   position: absolute;
-  z-index: -1;
-  width: calc(var(--border-width) * 2 + 100%);
-  height: calc(var(--border-width) * 2 + 100%);
-  top: calc(var(--border-width) * -1);
-  left: calc(var(--border-width) * -1);
+  display: block;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  top: auto;
+  bottom: 0px;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
+  background-color: white;
+  max-height: 40%
 }
 
 .card .card__inner .card__media {
