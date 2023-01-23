@@ -264,16 +264,10 @@
       background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%);
   }
 
-  .card:hover:before {
+  .card:hover:before,  .card--card:hover:after{
     max-height: 0%;
-    transition: max-height 0.5s ease-in;
+    transition: max-height 0.3s ease-in;
   }
-
-  .card--card:hover:after{
-    max-height: 0%;
-    transition: max-height 0.5s ease-in;
-  }
-  
 
   .card:hover .media.media--hover-effect > img:first-child:only-child,
   .card-wrapper:hover .media.media--hover-effect > img:first-child:only-child {
