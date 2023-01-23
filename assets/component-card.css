@@ -3,6 +3,7 @@
   height: 100%;
   position: relative;
   text-decoration: none;
+  box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
 }
 
 .card {
