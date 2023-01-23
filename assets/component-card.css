@@ -21,11 +21,11 @@
   content: "";
   display: block;
   width: 100%;
-  height: -100%;
+  height: 100%;
   background-color: white;
   position: absolute;
   border-radius: var(--border-radius);
-  max-height: -25%;
+  max-height: 25%;
   transition: max-height 0.5s ease-out;
 }
 
