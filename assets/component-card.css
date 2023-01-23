@@ -256,7 +256,7 @@
   }
 
   .card:hover:before {
-    background-color:black;
+    height: 0vw;
   }
 
   .card:hover .media.media--hover-effect > img:first-child:only-child,
