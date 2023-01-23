@@ -17,7 +17,7 @@
   background-color: black;
 }
 
-.card:not(.ratio)::after{
+.card:not(.ratio)::before{
   content: "";
   display: block;
   height: 100vh;
