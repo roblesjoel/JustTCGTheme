@@ -119,6 +119,7 @@
 
 .card__inner {
   width: 100%;
+  z-index: 1;
 }
 
 .card--media .card__inner .card__content {
@@ -204,6 +205,7 @@
 
 .card--card.card--media > .card__content {
   margin-top: calc(0rem - var(--image-padding));
+  z-index: 1;
 }
 
 .card--standard.card--text a::after,
