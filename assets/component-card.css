@@ -255,11 +255,11 @@
       background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%);
   }
 
-  .card:hover > ::after {
+  .card:hover > ::before {
     background-color:black;
   }
 
-  .card:not(.ratio)::after:hover{
+  .card:not(.ratio)::before:hover{
     background-color:black;
   }
 
