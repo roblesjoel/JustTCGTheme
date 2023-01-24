@@ -9,7 +9,7 @@
   background-size: 900%;
   background-position: center;
   border-radius: var(--product-card-corner-radius);
-  transition: background-site 0.2s ease;
+  transition: background-size 0.2s ease;
 }
 
 .card-wrapper:after{
@@ -287,7 +287,7 @@
 
   .card-wrapper:hover{
     background-size: 1000%;
-    transition: background-site 0.2s ease;
+    transition: background-size 0.2s ease;
   }
 
   .card:hover:before,  .card--card:hover:after{
