@@ -116,67 +116,6 @@
         "padding_bottom": 52
       }
     },
-    "86665075-6a9a-4054-89f4-091444cc1506": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-0",
-        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-1",
-        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-2",
-        "template--17580957991230__86665075-6a9a-4054-89f4-091444cc1506-1673798231c127978a-3"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Collapsible content",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": true,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -198,7 +137,6 @@
   "order": [
     "main",
     "7a7ab2d3-0476-43b6-b6cf-f262b9fa099d",
-    "86665075-6a9a-4054-89f4-091444cc1506",
     "product-recommendations"
   ]
 }
