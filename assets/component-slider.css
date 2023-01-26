@@ -349,7 +349,6 @@ slider-component.slider-component-full-width {
 }
 
 .slider-counter__link--active.slider-counter__link--dots .dot {
-  background-color: #3caedd;
   border-color: #348abe;
 }
 
@@ -365,6 +364,7 @@ slider-component.slider-component-full-width {
 
 .slider-counter__link--dots .dot,
 .slider-counter__link--numbers {
+    background-color: #3caedd;
   transition: transform 0.2s ease-in-out;
 }
 
