@@ -92,14 +92,14 @@
         "template--17580957991230__7a7ab2d3-0476-43b6-b6cf-f262b9fa099d-1673798426fb736af6-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>Description<\/p>",
             "heading_size": "h1"
           }
         },
         "template--17580957991230__7a7ab2d3-0476-43b6-b6cf-f262b9fa099d-1673798426fb736af6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ shop.brand.slogan }}<\/p>"
+            "text": "<p>{{ product.metafields.custom.sealed_beschreibung | metafield_tag }}<\/p>"
           }
         }
       },
