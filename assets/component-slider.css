@@ -331,6 +331,8 @@ slider-component.slider-component-full-width {
 
 .slider-counter__link {
   padding: 1rem;
+  border-color: #3caedd;
+  color: #348abe;
 }
 
 @media screen and (max-width: 749px) {
