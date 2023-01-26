@@ -58,7 +58,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Next Release",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "",
         "show_description": true,
         "description_style": "body",
