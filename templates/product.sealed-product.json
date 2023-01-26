@@ -99,7 +99,7 @@
         "template--17580957991230__7a7ab2d3-0476-43b6-b6cf-f262b9fa099d-1673798426fb736af6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>{{ shop.brand.slogan }}<\/p>"
           }
         }
       },
