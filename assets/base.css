@@ -2351,6 +2351,7 @@ input[type="checkbox"] {
 }
 
 .header__heading-logo {
+  max-width: 150px
   height: auto;
   width: 100%;
 }
