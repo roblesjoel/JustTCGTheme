@@ -990,6 +990,7 @@ summary::-webkit-details-marker {
 
 .title-wrapper--no-top-margin > .title {
   margin-top: 0;
+  color: #3caedd;
 }
 
 .subtitle {
