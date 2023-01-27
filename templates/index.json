@@ -230,12 +230,12 @@
     "65b7c4c1-fc13-4212-808c-97134013d296": {
       "type": "featured-collection",
       "settings": {
-        "title": "other pokemon release",
+        "title": "One Piece Card Game",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
+        "collection": "one-piece",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
