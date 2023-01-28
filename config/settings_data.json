@@ -117,7 +117,7 @@
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
-    "predictive_search_show_price": false,
+    "predictive_search_show_price": true,
     "favicon": "{{ shop.brand.square_logo }}",
     "currency_code_enabled": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/logo_justtcg_onlyfont_b8fc3c1b-4b7c-46f4-b61d-a89254a1d38f.png",
