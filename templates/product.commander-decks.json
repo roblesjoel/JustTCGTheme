@@ -86,6 +86,36 @@
         "padding_bottom": 12
       }
     },
+    "9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17724986523966__9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9-167494339850ab4cbe-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Theme<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17724986523966__9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9-167494339850ab4cbe-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17724986523966__9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9-167494339850ab4cbe-0",
+        "template--17724986523966__9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9-167494339850ab4cbe-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "7a7ab2d3-0476-43b6-b6cf-f262b9fa099d": {
       "type": "rich-text",
       "blocks": {
@@ -142,6 +172,7 @@
   },
   "order": [
     "main",
+    "9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9",
     "7a7ab2d3-0476-43b6-b6cf-f262b9fa099d",
     "product-recommendations",
     "1674728342ca8b4b24"
