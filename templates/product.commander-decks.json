@@ -86,36 +86,6 @@
         "padding_bottom": 12
       }
     },
-    "9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17724986523966__9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9-167494339850ab4cbe-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Theme<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--17724986523966__9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9-167494339850ab4cbe-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17724986523966__9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9-167494339850ab4cbe-0",
-        "template--17724986523966__9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9-167494339850ab4cbe-1"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "7a7ab2d3-0476-43b6-b6cf-f262b9fa099d": {
       "type": "rich-text",
       "blocks": {
@@ -136,6 +106,66 @@
       "block_order": [
         "template--17580957991230__7a7ab2d3-0476-43b6-b6cf-f262b9fa099d-1673798426fb736af6-0",
         "template--17580957991230__7a7ab2d3-0476-43b6-b6cf-f262b9fa099d-1673798426fb736af6-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17724986523966__9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9-167494339850ab4cbe-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Mechanic: {{ product.metafields.custom.commander_mechanics_name.value }}<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17724986523966__9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9-167494339850ab4cbe-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.commander_mechanics | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17724986523966__9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9-167494339850ab4cbe-0",
+        "template--17724986523966__9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9-167494339850ab4cbe-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "c1b6fb60-8de4-4df8-b8dc-d9d354d79da5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17724986523966__c1b6fb60-8de4-4df8-b8dc-d9d354d79da5-16749440768ead4f68-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Theme: {{ product.metafields.custom.commander_theme_name.value }}<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17724986523966__c1b6fb60-8de4-4df8-b8dc-d9d354d79da5-16749440768ead4f68-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.commander_theme | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17724986523966__c1b6fb60-8de4-4df8-b8dc-d9d354d79da5-16749440768ead4f68-0",
+        "template--17724986523966__c1b6fb60-8de4-4df8-b8dc-d9d354d79da5-16749440768ead4f68-1"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -172,8 +202,9 @@
   },
   "order": [
     "main",
-    "9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9",
     "7a7ab2d3-0476-43b6-b6cf-f262b9fa099d",
+    "9b8c7b0e-901e-4634-9fbe-4b01fbedb9e9",
+    "c1b6fb60-8de4-4df8-b8dc-d9d354d79da5",
     "product-recommendations",
     "1674728342ca8b4b24"
   ]
