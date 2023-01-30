@@ -291,7 +291,7 @@
     color: white;
   }
 
-  .card__heading:hover {
+  .card:hover > h3 {
     font-size: 40px;
   }
 
