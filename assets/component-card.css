@@ -297,7 +297,7 @@
 
   .card-wrapper:hover{
     background-size: 1000%;
-    transition: background-size 0.2s ease;
+    transition: background-size 0.5s ease;
   }
 
   .card:hover:before,  .card--card:hover:after{

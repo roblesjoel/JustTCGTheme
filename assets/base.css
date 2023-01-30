@@ -1,11 +1,6 @@
 /* Color custom properties */
 
-:root{
-    --light: 80;
-  /* the threshold at which colors are considered "light." Range: integers from 0 to 100,
-recommended 50 - 70 */
-  --threshold: 60;
-},
+:root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
   --color-background: var(--color-base-background-1);
