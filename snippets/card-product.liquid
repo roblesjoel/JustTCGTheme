@@ -70,7 +70,7 @@
                   loading="lazy"
                 {% endunless %}
                 width="{{ card_product.featured_media.width }}"
-                height="{{ card_product.featured_media.height }}"
+                height="calc({{ card_product.featured_media.height }}/{{ card_product.featured_media.width }})"
               >
               {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
 
