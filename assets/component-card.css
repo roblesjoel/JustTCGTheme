@@ -143,6 +143,7 @@
 .card__inner {
   width: 100%;
   z-index: 1;
+  justify-content: center;
 }
 
 .card--media .card__inner .card__content {
