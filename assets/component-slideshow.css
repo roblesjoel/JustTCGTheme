@@ -12,6 +12,7 @@ slideshow-component .slideshow.banner:not(:hover) img {
 slideshow-component .slideshow.banner:hover img {
   transform: scale(1.5);
   transition: all 1.1s ease-in-out;
+    width: 100%;
 }
 
 @media screen and (max-width: 989px) {
