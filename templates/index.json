@@ -38,11 +38,30 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "1e9e6f6a-75d1-433b-88da-150f05a0b6eb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MOM_1080p_en.jpg",
+            "heading": "March of the Machine",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Pre-Order Now",
+            "link": "shopify:\/\/collections\/march-of-the-machine-sealed",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--16679142654270__27d8c50b-0925-4585-99fe-9854323759fe-1666646423507ff2b5-0",
-        "template--16679142654270__27d8c50b-0925-4585-99fe-9854323759fe-1666646423507ff2b5-1"
+        "template--16679142654270__27d8c50b-0925-4585-99fe-9854323759fe-1666646423507ff2b5-1",
+        "1e9e6f6a-75d1-433b-88da-150f05a0b6eb"
       ],
       "settings": {
         "layout": "full_bleed",
