@@ -45,7 +45,7 @@
   position: absolute;
   border-top-left-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius);
-  max-height: 17%;
+  max-height: 15%;
   transition: max-height 0.2s ease-out;
 }
 
@@ -93,7 +93,7 @@
   border-bottom-left-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius);
   background-color: white;
-  max-height: 65%;
+  max-height: 70%;
   transition: max-height 0.2s ease-out;
 }
 
