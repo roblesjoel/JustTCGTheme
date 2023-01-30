@@ -292,7 +292,7 @@
   }
 
   .card:hover h3 {
-    font-size: 40px;
+    font-size: calc(var(--font-heading-scale) * 1.5rem)
   }
 
   .card-wrapper:hover{
