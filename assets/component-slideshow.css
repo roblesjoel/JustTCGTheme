@@ -2,6 +2,7 @@ slideshow-component {
   position: relative;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 slideshow-component .slideshow.banner:not(:hover) img {
