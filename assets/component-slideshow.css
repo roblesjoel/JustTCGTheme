@@ -26,6 +26,7 @@ slideshow-component .slideshow.banner {
   margin: 0;
   gap: 0;
   height: 500px;
+  width: 100%;
 }
 
 .slideshow__slide {
