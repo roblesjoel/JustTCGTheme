@@ -294,6 +294,7 @@
   .card:hover h3 {
     transition: font 1.5s ease;
     font-size: calc(var(--font-heading-scale) * 1.5rem);
+    font-weight: bold;
   }
 
   .card-wrapper:hover{
