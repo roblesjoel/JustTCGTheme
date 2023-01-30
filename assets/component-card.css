@@ -325,8 +325,6 @@
 
   .underline-links-hover a{
     transition: color var(--duration-long) ease;
-    --switch: calc((var(--light) - var(--threshold)) * -100%);
-    color: hsl(0, 0%, var(--switch));
   }
 
   .underline-links-hover:hover a {
