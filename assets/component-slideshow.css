@@ -2,11 +2,11 @@ slideshow-component {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 slideshow-component .slideshow.banner:not(:hover) img {
   transition: all 1.1s ease-in-out;
+  width: 100%;
 }
 
 slideshow-component .slideshow.banner:hover img {
