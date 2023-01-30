@@ -292,7 +292,6 @@
   }
 
   .card:hover h3, span {
-    transition: font 1.5s ease;
     font-weight: bold;
   }
 
