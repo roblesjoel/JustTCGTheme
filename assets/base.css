@@ -1233,7 +1233,6 @@ summary::-webkit-details-marker {
 .media model-viewer {
   display: block;
   max-width: 150px;
-  position: absolute;
   top: 0;
   left: 0;
   height: auto;
