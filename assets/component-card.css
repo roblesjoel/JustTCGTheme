@@ -292,7 +292,7 @@
   }
 
   .card:hover h3 {
-    transition: font-size 0.7s ease;
+    transition: font-size 1.5s ease;
     font-size: calc(var(--font-heading-scale) * 1.5rem);
   }
 
