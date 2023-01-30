@@ -107,6 +107,8 @@
 .card--card .card__inner .card__media {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+  width: 95%;
+  height: 95%;
 }
 
 .card--standard.card--text {
