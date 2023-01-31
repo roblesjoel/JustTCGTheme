@@ -2356,7 +2356,7 @@ input[type="checkbox"] {
   .header--mobile-left .header__heading,
   .header--mobile-left .header__heading-link {
     text-align: center;
-    justify-self: start;
+    justify-self: center;
   }
 
   .header--mobile-left {
