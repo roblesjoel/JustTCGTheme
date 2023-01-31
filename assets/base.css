@@ -2271,6 +2271,7 @@ input[type="checkbox"] {
   grid-template-areas: "left-icon Logo icons";
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 990px) {
