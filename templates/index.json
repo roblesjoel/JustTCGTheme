@@ -100,59 +100,47 @@
         "padding_bottom": 36
       }
     },
-    "707188ae-5c7d-4cc1-8cab-28f037e5a856": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "65d6a5b0-1c68-4f65-a3e8-10dfbb9be8c8": {
-          "type": "collection",
-          "settings": {
-            "collection": "magic-the-gathering"
-          }
-        },
-        "8370e19d-71b9-484e-bb6c-58489a790d52": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "558bfd3a-2bf5-43f4-80a4-76ce3b0fc125": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "65d6a5b0-1c68-4f65-a3e8-10dfbb9be8c8",
-        "8370e19d-71b9-484e-bb6c-58489a790d52",
-        "558bfd3a-2bf5-43f4-80a4-76ce3b0fc125"
-      ],
-      "settings": {
-        "heading": "Games",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "none",
-        "color_scheme": "background-2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "417c7786-8ee2-4b03-b06d-c3e3356bea6d": {
+    "e8f3b7aa-aa4c-40e9-9de9-1f1b616af766": {
       "type": "featured-collection",
       "settings": {
-        "title": "Zubehör",
+        "title": "Yu-Gi-Oh!",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
+        "collection": "yu-gi-oh",
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": true,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-2",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "65b7c4c1-fc13-4212-808c-97134013d296": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "One Piece Card Game",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "one-piece",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "link",
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
@@ -160,7 +148,7 @@
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": true,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
@@ -220,47 +208,20 @@
         "padding_bottom": 36
       }
     },
-    "e8f3b7aa-aa4c-40e9-9de9-1f1b616af766": {
+    "417c7786-8ee2-4b03-b06d-c3e3356bea6d": {
       "type": "featured-collection",
       "settings": {
-        "title": "Yu-Gi-Oh!",
+        "title": "Zubehör",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "yu-gi-oh",
+        "collection": "",
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": true,
         "show_view_all": true,
-        "view_all_style": "link",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-2",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "65b7c4c1-fc13-4212-808c-97134013d296": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "One Piece Card Game",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "one-piece",
-        "products_to_show": 5,
-        "columns_desktop": 5,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "link",
+        "view_all_style": "solid",
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
@@ -268,8 +229,47 @@
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": true,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "707188ae-5c7d-4cc1-8cab-28f037e5a856": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "65d6a5b0-1c68-4f65-a3e8-10dfbb9be8c8": {
+          "type": "collection",
+          "settings": {
+            "collection": "magic-the-gathering"
+          }
+        },
+        "8370e19d-71b9-484e-bb6c-58489a790d52": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "558bfd3a-2bf5-43f4-80a4-76ce3b0fc125": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "65d6a5b0-1c68-4f65-a3e8-10dfbb9be8c8",
+        "8370e19d-71b9-484e-bb6c-58489a790d52",
+        "558bfd3a-2bf5-43f4-80a4-76ce3b0fc125"
+      ],
+      "settings": {
+        "heading": "Games",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "background-2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -278,11 +278,11 @@
   "order": [
     "27d8c50b-0925-4585-99fe-9854323759fe",
     "52f1114c-7b62-48a7-9ff7-7ab9b780c4fe",
-    "707188ae-5c7d-4cc1-8cab-28f037e5a856",
-    "417c7786-8ee2-4b03-b06d-c3e3356bea6d",
+    "e8f3b7aa-aa4c-40e9-9de9-1f1b616af766",
+    "65b7c4c1-fc13-4212-808c-97134013d296",
     "eba2a142-58cd-4295-a29b-016c40923983",
     "b2c23c01-23c4-4ad3-a33b-5d8b9768b29d",
-    "e8f3b7aa-aa4c-40e9-9de9-1f1b616af766",
-    "65b7c4c1-fc13-4212-808c-97134013d296"
+    "417c7786-8ee2-4b03-b06d-c3e3356bea6d",
+    "707188ae-5c7d-4cc1-8cab-28f037e5a856"
   ]
 }
