@@ -102,6 +102,7 @@
     },
     "707188ae-5c7d-4cc1-8cab-28f037e5a856": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "65d6a5b0-1c68-4f65-a3e8-10dfbb9be8c8": {
           "type": "collection",
