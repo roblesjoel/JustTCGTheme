@@ -2268,7 +2268,7 @@ input[type="checkbox"] {
 
 .header {
   display: grid;
-  grid-template-areas: "left-icon heading icons";
+  grid-template-areas: "left-icon Logo icons";
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
 }
