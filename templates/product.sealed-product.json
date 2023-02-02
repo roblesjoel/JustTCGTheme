@@ -38,6 +38,11 @@
           "settings": {
           }
         },
+        "37ddb0c7-0c4c-4dbc-af5b-8c64e4999afb": {
+          "type": "shopify:\/\/apps\/quantity-breaks-tiered-pricing\/blocks\/kaktus-widget\/e9fca694-ce1c-4130-b0af-6845db35b349",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -55,13 +60,9 @@
             "share_label": "Share"
           }
         },
-        "37ddb0c7-0c4c-4dbc-af5b-8c64e4999afb": {
-          "type": "shopify:\/\/apps\/quantity-breaks-tiered-pricing\/blocks\/kaktus-widget\/e9fca694-ce1c-4130-b0af-6845db35b349",
-          "settings": {
-          }
-        },
         "cfa908b6-6975-438e-9892-cbd677deb829": {
           "type": "shopify:\/\/apps\/preorder-presale-pre-order\/blocks\/kaktus-bundle\/65705a60-a3b0-43ae-9dc8-15db78d76b3b",
+          "disabled": true,
           "settings": {
           }
         }
@@ -73,10 +74,10 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "37ddb0c7-0c4c-4dbc-af5b-8c64e4999afb",
         "buy_buttons",
         "description",
         "share",
-        "37ddb0c7-0c4c-4dbc-af5b-8c64e4999afb",
         "cfa908b6-6975-438e-9892-cbd677deb829"
       ],
       "settings": {
