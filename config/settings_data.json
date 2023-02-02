@@ -243,21 +243,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "1097096201824731535": {
-        "type": "shopify:\/\/apps\/preorder-presale-pre-order\/blocks\/app-embeded\/65705a60-a3b0-43ae-9dc8-15db78d76b3b",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "13102731445781961921": {
-        "type": "shopify:\/\/apps\/quantity-breaks-tiered-pricing\/blocks\/app-embeded\/e9fca694-ce1c-4130-b0af-6845db35b349",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Default": {
