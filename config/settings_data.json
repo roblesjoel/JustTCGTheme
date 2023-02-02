@@ -250,6 +250,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "13102731445781961921": {
+        "type": "shopify:\/\/apps\/quantity-breaks-tiered-pricing\/blocks\/app-embeded\/e9fca694-ce1c-4130-b0af-6845db35b349",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
