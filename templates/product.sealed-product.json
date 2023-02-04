@@ -35,13 +35,13 @@
             "picker_type": "button"
           }
         },
-        "88e321d0-8704-4211-b5c4-e1f5df5343d1": {
-          "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/bundler-target-element\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+        "quantity_selector": {
+          "type": "quantity_selector",
           "settings": {
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
+        "0bd1a28d-8cd8-416c-88b2-a69ed8edf98c": {
+          "type": "shopify:\/\/apps\/volumeboost-volume-discount\/blocks\/offer_table_block\/25745434-52e7-4378-88f1-890df18a0110",
           "settings": {
           }
         },
@@ -61,12 +61,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "593bb26f-af41-421a-aa88-674e389b7d29": {
-          "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
-          "settings": {
-            "shortcode": ""
-          }
         }
       },
       "block_order": [
@@ -75,12 +69,11 @@
         "caption",
         "price",
         "variant_picker",
-        "88e321d0-8704-4211-b5c4-e1f5df5343d1",
         "quantity_selector",
+        "0bd1a28d-8cd8-416c-88b2-a69ed8edf98c",
         "buy_buttons",
         "description",
-        "share",
-        "593bb26f-af41-421a-aa88-674e389b7d29"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -144,17 +137,6 @@
     "1674728342ca8b4b24": {
       "type": "apps",
       "disabled": true,
-      "blocks": {
-        "238e923a-13a3-4cef-a7c5-eb634034173c": {
-          "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
-          "settings": {
-            "shortcode": ""
-          }
-        }
-      },
-      "block_order": [
-        "238e923a-13a3-4cef-a7c5-eb634034173c"
-      ],
       "settings": {
         "include_margins": true
       }
