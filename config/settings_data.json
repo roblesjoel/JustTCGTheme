@@ -243,7 +243,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "558381514691908246": {
+        "type": "shopify:\/\/apps\/volumeboost-volume-discount\/blocks\/app-embed\/25745434-52e7-4378-88f1-890df18a0110",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
