@@ -40,6 +40,12 @@
           "settings": {
           }
         },
+        "f6548c80-2391-41d4-a062-ae44d3e59c96": {
+          "type": "shopify:\/\/apps\/kaching-bundle-quantity-deals\/blocks\/app-block\/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -56,12 +62,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "f6548c80-2391-41d4-a062-ae44d3e59c96": {
-          "type": "shopify:\/\/apps\/kaching-bundle-quantity-deals\/blocks\/app-block\/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{product}}"
-          }
         }
       },
       "block_order": [
@@ -71,10 +71,10 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "f6548c80-2391-41d4-a062-ae44d3e59c96",
         "buy_buttons",
         "description",
-        "share",
-        "f6548c80-2391-41d4-a062-ae44d3e59c96"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
