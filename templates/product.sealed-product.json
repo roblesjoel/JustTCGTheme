@@ -40,11 +40,6 @@
           "settings": {
           }
         },
-        "0bd1a28d-8cd8-416c-88b2-a69ed8edf98c": {
-          "type": "shopify:\/\/apps\/volumeboost-volume-discount\/blocks\/offer_table_block\/25745434-52e7-4378-88f1-890df18a0110",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -61,6 +56,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "f6548c80-2391-41d4-a062-ae44d3e59c96": {
+          "type": "shopify:\/\/apps\/kaching-bundle-quantity-deals\/blocks\/app-block\/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{product}}"
+          }
         }
       },
       "block_order": [
@@ -70,10 +71,10 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "0bd1a28d-8cd8-416c-88b2-a69ed8edf98c",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "f6548c80-2391-41d4-a062-ae44d3e59c96"
       ],
       "settings": {
         "enable_sticky_info": true,
