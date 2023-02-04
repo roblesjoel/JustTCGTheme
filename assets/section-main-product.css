@@ -1349,4 +1349,7 @@ a.product__text {
 .product-media-container .media {
   padding-top: calc(var(--ratio-percent)/2);
   padding-bottom: calc(var(--ratio-percent)/2);
+  display: flex;
+  justify-content: center;
+
 }
