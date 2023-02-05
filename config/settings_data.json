@@ -121,6 +121,7 @@
     "favicon": "{{ shop.brand.square_logo }}",
     "currency_code_enabled": true,
     "pt_mobile_enable": false,
+    "pt_temporary_disable": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/logo_justtcg_onlyfont_b8fc3c1b-4b7c-46f4-b61d-a89254a1d38f.png",
     "checkout_logo_position": "right",
     "checkout_logo_size": "large",
@@ -243,27 +244,6 @@
       },
       "filter-menu-settings": {
         "type": "filter-menu-settings",
-        "blocks": {
-          "21fab601-cb84-4970-a8e7-442eb0d32cdb": {
-            "type": "image-icon",
-            "settings": {
-              "collection": "innistrad-midnight-hunt-sealed",
-              "height": "30px",
-              "width": "30px"
-            }
-          },
-          "06bfa377-ced2-43ce-9089-bb1aeb5277aa": {
-            "type": "color-swatch",
-            "settings": {
-              "collection": "",
-              "color": "#333"
-            }
-          }
-        },
-        "block_order": [
-          "21fab601-cb84-4970-a8e7-442eb0d32cdb",
-          "06bfa377-ced2-43ce-9089-bb1aeb5277aa"
-        ],
         "settings": {
         }
       }
