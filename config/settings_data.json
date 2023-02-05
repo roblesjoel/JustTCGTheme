@@ -244,6 +244,18 @@
       },
       "filter-menu-settings": {
         "type": "filter-menu-settings",
+        "blocks": {
+          "aa770eac-53e8-4f6c-b084-8cdc6afb87a8": {
+            "type": "color-swatch",
+            "settings": {
+              "collection": "",
+              "color": "#ff0000"
+            }
+          }
+        },
+        "block_order": [
+          "aa770eac-53e8-4f6c-b084-8cdc6afb87a8"
+        ],
         "settings": {
         }
       }
