@@ -251,7 +251,8 @@
         "settings": {
         }
       }
-    }
+    },
+    "pt_mobile_enable": false
   },
   "presets": {
     "Default": {

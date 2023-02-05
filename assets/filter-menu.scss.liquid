@@ -1116,3 +1116,22 @@ a:hover i.check-icon:before {
 
 {%- comment -%}/* Add custom styles here */{%- endcomment -%}
 
+
+.filter-menu .filter-group.pt-display-dropdown .menu-trigger {
+  z-index: 1;
+}
+
+.filter-menu .filter-group.pt-display-dropdown .scroll-content {
+  z-index: 2;
+}
+
+#FacetsWrapperDesktop *:not(.filter-menu):not(.filter-menu *),
+.mobile-facets .mobile-facets__details,
+.mobile-facets .mobile-facets__summary,
+.mobile-facets .mobile-facets__footer {
+  display: none;
+}
+
+.mobile-facets__main .filter-menu {
+  padding: 0 20px;
+}
